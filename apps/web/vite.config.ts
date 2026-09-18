@@ -18,7 +18,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: "../../src/MayNho.Api/wwwroot",
+    outDir: process.env.VERCEL ? "dist" : "../../src/MayNho.Api/wwwroot",
     emptyOutDir: true
   }
 });
