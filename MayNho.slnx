@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MayNho.Api/MayNho.Api.csproj" />
+    <Project Path="src/MayNho.Application/MayNho.Application.csproj" />
+    <Project Path="src/MayNho.Domain/MayNho.Domain.csproj" />
+    <Project Path="src/MayNho.Infrastructure/MayNho.Infrastructure.csproj" />
+    <Project Path="src/MayNho.Migrator/MayNho.Migrator.csproj" />
+    <Project Path="src/MayNho.Worker/MayNho.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Integration/MayNho.Integration.csproj" />
+    <Project Path="tests/Unit/MayNho.Unit.csproj" />
+  </Folder>
+</Solution>
+
